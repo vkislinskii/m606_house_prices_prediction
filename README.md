@@ -8,26 +8,26 @@ The data was originally taken from the leading Australian property marketplace D
 
 #### Methodology
 1. Data exploration
-  * Exploring distributions of features 
-  * Exploring feature relations
-  * Exploring extreme feature values (95th percentile)
+    * Exploring distributions of features 
+    * Exploring feature relations
+    * Exploring extreme feature values (95th percentile)
 2. Data Preprocessing
-  * Getting rid of rows with nonsense data
-  * Handling missing values using KNN Imputer
+    * Getting rid of rows with nonsense data
+    * Handling missing values using KNN Imputer
 3. Feature engineering
-  * Encoding categorical values
-  * Scaling numerical features (making mean equal to 0 and scaling variance to one)
-  * Taking a logarithm of the label column Price to transfer its distribution from Long-tailed to be more like Normal
+    * Encoding categorical values
+    * Scaling numerical features (making mean equal to 0 and scaling variance to one)
+    * Taking a logarithm of the label column Price to transfer its distribution from Long-tailed to be more like Normal
 4. Model training
-  * Implemented and compared multiple machine learning models:
-    * Linear Regression
-    * Elastic Net
-    * Support Vector Regression (SVR)
-    * K-Nearest Neighbors (KNN)
-    * Decision Tree
-    * Random Forest
-    * Gradient Boosting
-  * Evaluated model performance using MedAE (Median Absolute Error) metric
+    * Implemented and compared multiple machine learning models:
+      * Linear Regression
+      * Elastic Net
+      * Support Vector Regression (SVR)
+      * K-Nearest Neighbors (KNN)
+      * Decision Tree
+      * Random Forest
+      * Gradient Boosting
+    * Evaluated model performance using MedAE (Median Absolute Error) metric
 
 #### How to Use
 * Or clone the repository
