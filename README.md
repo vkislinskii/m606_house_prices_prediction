@@ -32,18 +32,22 @@ The data was originally taken from the leading Australian property marketplace D
 #### How to Use
 * Or clone the repository
   
-``
-https://github.com/vkislinskii/m606_house_prices_prediction.git
-``
-And install all the needed packages
-``
-pip install pandas
-pip install numpy
-pip install sklearn
-pip install seaborn
-pip install scipy
-pip install matplotlib
-``
+```sh
+git clone https://github.com/vkislinskii/m606_house_prices_prediction.git
+```
+
+Install all the needed packages
+
+   ```sh
+   pip install pandas
+   pip install numpy
+   pip install sklearn
+   pip install seaborn
+   pip install scipy
+   pip install matplotlib
+   ```
+Finally, open the project in Jupyter Notebook 
+
 * Or open the "project_real_estate.ipynb" file in Google Colab by simply clicking the blue button on the first line of the Jupyter Notebook file
 
 #### Results
